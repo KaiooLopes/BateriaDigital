@@ -1,0 +1,142 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.key-maps-drum{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: gray;
+    z-index: 3;
+}
+
+.key-maps h2{
+    font-size: 16px;
+    text-align: center;
+}
+
+.key-maps kbd{
+    border: 0.5px solid black;
+    border-radius: 2px;
+    padding: 0 1px;
+}
+
+.key-maps ul{
+    list-style-type: none;
+    margin:10px;
+    padding: 0;
+}
+
+.key-maps ul li{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* ---------------------------------------- */
+
+.drum-kit{
+    width: 100%;
+    position: relative;
+}
+
+.drum-kit-wrapper{
+    position: relative;
+    margin: -20px auto 0;
+    width: 300px;
+}
+
+.main-drum h1{
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.key{
+    display: inline-block;
+	transition: all ease-in-out .042s;
+	position: absolute;
+	background: #eaeaea;
+    font-size: 0.8em;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid #aaa;
+    color: #444;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+    z-index: 2;
+}
+
+.crash-cymbal{
+    position: absolute;
+    top: 52px;
+    left: 26px;
+    width:95px;
+    transform: rotate(-7deg);
+    transition: all ease-in-out .042s;
+}
+
+.hihat-top-cymbal{
+    position: absolute;
+    top: 79px;
+    left: 190px;
+    width: 85px;
+    transition: all ease-in-out .042s;
+}
+
+.snare{
+    top: 134px;
+    left: 200px;
+}
+
+.kick{
+    top: 190px;
+    left: 160px;
+}
+
+.kick2{
+    top: 190px;
+    left: 125px;
+}
+
+.tom-high{
+    top: 115px;
+    left: 168px;
+}
+
+.tom-mid{
+    top:110px;
+    left: 110px;
+}
+
+.tom-low{
+    top:160px;
+    left: 75px;
+}
+
+.hihat-close{
+    top: 70px;
+    left: 245px;
+}
+
+.hihat-open{
+    top: 70px;
+    left: 195px;
+}
+
+.crash{
+    top: 40px;
+    left: 30px;
+}
+
+.ride{
+    top: 40px;
+    left: 90px;
+}
+
+.playing{
+	transform: scale(1.12);
+}
